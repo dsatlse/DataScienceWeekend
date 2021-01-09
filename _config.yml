@@ -1,8 +1,8 @@
 title: Data Science Weekend
 description: > # this means to ignore newlines until "baseurl:"
   LSESU Data Science Society Data Science Weekend
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "dsatlse.github.io/DataScienceWeekend" # the base hostname & protocol for your site
+baseurl: "/DataScienceWeekend" # the subpath of your site, e.g. /blog
+url: "dsatlse.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
