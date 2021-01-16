@@ -1,4 +1,5 @@
-base_url = "https://dsatlse.github.io/DataScienceWeekend"
+url = "https://dsatlse.github.io"
+base_url = "DataScienceWeekend"
 title = "LSESU Data Science Weekend"
 highlight_code = true
 highlight_theme = "ir-white"
