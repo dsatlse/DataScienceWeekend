@@ -1,0 +1,26 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+html {
+    font-size: 18px;
+}
+
+
+.bg-light {
+	background-color:#101628;
+}
+
+.text_primary {
+	color: #1c2747ff;
+}
+
+.socials {
+    text-decoration: none;
+}
+
+.footer-socials {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

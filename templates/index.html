@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block htmltitle %}
+    {{ config.title }}
+{% endblock htmltitle %}
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+  	<div class="view overlay rounded-top">
+  	<center> <img src = "society_banner_big.png" class="img-fluid"> </center>
+  	<div class="mask rgba-white-slight"></div>
+  </div>
+  <hr class="my-4">
+  </br>
+  <div class="card-body text-center mb-3">
+     <!--h2 class="card-title pb-2">Our Mission</h2-->
+    <p class="lead"> {{ config.extra.about | safe }}  <br/>
+    </p>
+  </br>
+  </br>
+    <a class="btn btn-success btn-lg" href="{{ config.extra.eventbrite_link }}"target="blank" role="button">EVENTBRITE LINK</a>
+  </div>
+</div>
+</div>
+
+<center><a id="sponsors"><h2> Sponsors </h2></a></center>
+
+The Data Science Weekend would not be possible without the support of our generous sponsors
+
+<div class="row row-cols-1 row-cols-md-3">
+  {% set section = get_section(path="sponsors/_index.md") %}
+  {% for page in section.pages %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src = {{ page.extra.url }} class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> {{ page.title }} </h5>
+        <p class="card-text"> {{ page.extra.description }} </p>
+        </div>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+
+<hr class="my-4">
+<center><a id="schedule"><h2> Schedule </h2></a></center>
+
+<div class="row row-cols-1 row-cols-md-2">
+<div class = "col mb-4">
+  <center> <h3> Day 1</h3> </center>
+  <ul class="list-group">
+    <li class="list-group-item"><b>10:00 - 10:15</b> Intro + opening keynote</li>
+    <li class="list-group-item"><b>10:15 - 11:15</b> Workshop 1</li>
+    <li class="list-group-item"><b>11:30 - 12:30</b> Workshop 2</li>
+    <li class="list-group-item"><b>13:30 - 15:00</b> </li>
+    <li class="list-group-item"><b>15:00 - 15:30</b> Datathon briefing and Q&A</li>
+    <li class="list-group-item"><b>17:00 - 18:00</b> Mentor office hours 1</li>
+  </ul>
+</div>
+<div class = "col mb-4">
+  <center> <h3> Day 2</h3> </center>
+  <ul class="list-group">
+    <li class="list-group-item"><b>10:00 - 11:00</b> Mentor office hours 2 </li>
+    <li class="list-group-item"><b>14:00</b> Datathon submission deadline</li>
+    <li class="list-group-item"><b>14:00 - 15:30</b> Data Science in Finance Panel + judging</li>
+    <li class="list-group-item"><b>15:45 - 16:45</b> Finalist presentations </li>
+    <li class="list-group-item"><b>17:00 - 18:00</b> Optional networking</li>
+  </ul>
+</div>
+</div>
+
+<hr class="my-4">
+<center><a id="speakers"><h2> Speakers </h2></a></center>
+
+<div class="row row-cols-1 row-cols-md-4">
+	{% set section = get_section(path="speakers/_index.md") %}
+  {% for page in section.pages %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src = {{ page.extra.url }} class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> {{ page.title }} </h5>
+        <p class="card-text"> {{ page.extra.description }} </p>
+        </div>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+<hr class="my-4">
+<center><a id="challenge"><h2> Challenges </h2></a></center>
+
+<div class="row row-cols-1 row-cols-md-3">
+  {% set section = get_section(path="challenge/_index.md") %}
+  {% for page in section.pages %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src = {{ page.extra.url }} class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> {{ page.title }} </h5>
+        <p class="card-text"> {{ page.extra.description }} </p>
+        </div>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+<hr class="my-4">
+<center><a id="judges"><h2> Judges </h2></a></center>
+
+<div class="row row-cols-1 row-cols-md-4">
+  {% set section = get_section(path="judges/_index.md") %}
+  {% for page in section.pages %}
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src = {{ page.extra.url }} class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> {{ page.title }} </h5>
+        <p class="card-text"> {{ page.extra.description }} </p>
+        </div>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+
+<hr class="my-4">
+<center><a id="faq"><h2>FAQ</h2></a></center>
+<div class="accordion" id="accordionExample">
+
+{% set section = get_section(path="faqs/_index.md") %}
+{% for page in section.pages %}
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{loop.index}}" aria-expanded="true" aria-controls="collapse{{loop.index}}">
+          {{ page.title }}
+        </button>
+      </h2>
+    </div>
+    <div id="collapse{{loop.index}}" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <p>{{ page.slug }}</p>
+     </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</div>
+
+{% endblock content %}
