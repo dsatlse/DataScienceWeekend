@@ -4,5 +4,5 @@ title = "Judge 2"
 
 [extra] 
 description = "TBC"
-url = "example_education.png"
+url = "example_partnerships.png"
 +++

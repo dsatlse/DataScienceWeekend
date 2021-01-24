@@ -1,5 +1,5 @@
 +++
-title = "FAQ 1"
-date = 2018-10-04
-slug = "FAQ Answer 1"
+title = "1. Who can attend this event?"
+[extra]
+answer = "Students of UK universities from all backgrounds and skill levels."
 +++

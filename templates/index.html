@@ -7,7 +7,7 @@
 <div class="jumbotron jumbotron-fluid text-center">
   <div class="container">
   	<div class="view overlay rounded-top">
-  	<center> <img src ='society_banner_big.png' class="img-fluid"> </center>
+  	<center> <a href="{{ config.extra.eventbrite_link }}"><img src ='DSW_Banner.png' class="img-fluid"></a> </center>
   	<div class="mask rgba-white-slight"></div>
   </div>
   <hr class="my-4">
@@ -52,7 +52,7 @@ The Data Science Weekend would not be possible without the support of our genero
     <li class="list-group-item"><b>10:00 - 10:15</b> Intro + opening keynote</li>
     <li class="list-group-item"><b>10:15 - 11:15</b> Workshop 1</li>
     <li class="list-group-item"><b>11:30 - 12:30</b> Workshop 2</li>
-    <li class="list-group-item"><b>13:30 - 15:00</b> </li>
+    <li class="list-group-item"><b>13:30 - 15:00</b> Data Science in Consulting Panel</li>
     <li class="list-group-item"><b>15:00 - 15:30</b> Datathon briefing and Q&A</li>
     <li class="list-group-item"><b>17:00 - 18:00</b> Mentor office hours 1</li>
   </ul>
@@ -135,9 +135,9 @@ The Data Science Weekend would not be possible without the support of our genero
         </button>
       </h2>
     </div>
-    <div id="collapse{{loop.index}}" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapse{{loop.index}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        <p>{{ page.slug }}</p>
+        <p>{{ page.extra.answer }}</p>
      </div>
     </div>
   </div>
