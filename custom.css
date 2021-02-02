@@ -1,5 +1,5 @@
 .footer {
-    background-color: #f8f9fa;
+    background-color:#cbdae3;
     padding: 1rem;
 }
 
@@ -14,7 +14,7 @@ html {
 
 .text_primary {
 	color: #1c2747ff;
-}
+}	
 
 .socials {
     text-decoration: none;
@@ -23,4 +23,34 @@ html {
 .footer-socials {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+body { 
+	padding-top: 75px; 
+	background-color:#cbdae3;
+	font-family: 'Bai Jamjuree', sans-serif;
+	
+}
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+.card { 
+	background-color:rgba(0, 0, 0, 0);
+}
+
+.navbar.fixed-top.navbar-expand {
+	background-color: #031a44;	
+}
+
+.nav-link {
+	color:#cbdae3;
+}
+
+#headingOne {
+	background-color: #031a44;	
+}
+
+.btn-link {
+	color:#cbdae3;
 }
