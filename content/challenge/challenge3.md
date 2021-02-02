@@ -1,8 +1,8 @@
 +++
-title = "Challenge 3"
+title = "Social Sciences"
 
 
 [extra] 
-description = "TBC"
+description = "The"
 url = "example_projects.png"
 +++

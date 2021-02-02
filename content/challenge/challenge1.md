@@ -1,5 +1,5 @@
 +++
-title = "Challenge 1"
+title = "Economics"
 
 
 [extra] 

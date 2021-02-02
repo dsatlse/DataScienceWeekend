@@ -1,56 +1,51 @@
 # Website for the LSESU Data Science Society
 
-This is a static [website](https://dsatlse.github.io/) made with [Zola](https://www.getzola.org/). All public materials developed by the society will be available on it, along with documentation of projects, events and public Zulip communication.
+This is a static [website](https://dsatlse.github.io/) meant to be used to promote the LSESU Data Science Society's flagship eventmade with [Zola](https://www.getzola.org/). It is mostly cloned from the society's main static site: [github.com/dsatlse/dsatlse.github.io](github.com/dsatlse/dsatlse.github.io) 
 
-## Build
+## Development
 
-Install Zola as described [here](https://www.getzola.org/documentation/getting-started/installation/) or, and this is the easiest if you are used to the command line, download precompiled binaries for your platform from [here](https://github.com/getzola/zola/releases).
+- [x] DSW Logo: (LSESU Data Science Weekend Navigating a Data-Centric World) which can be fonud here: https://drive.google.com/drive/folders/19YRdtlZqk_d3elKainwMDri0Q_gjnh3J?usp=sharing
 
-Run `zola build` in order to build and `zola serve` to run a small server. It will also reload automatically on changes made to the files. With the help of GitHub Actions this website is built automatically on each new commit. You can see the whole build process in `.github/workflows/main.yml`.
+- [ ] Color Scheme: 
 
-You can also use `zola check` to verify if all external links work. This should be ran every now and then.
+- [ ] Schedule
 
-## Content
+- [ ] Title /  Banner Size
 
-- Content i.e. materials, events, projects in `/content`
-- Static files e.g. images in `/static`
-- Templates which define the structure in `/templates`
+- [ ] FAQ 
 
-The templates should be treated as part of the design and edited in last resort.
+- [ ] Fonts: Russo one,  Bai Jamjuree
 
-## Contribution
+- [ ] Speakers + judges
 
-Below is the least amount of steps to get from a fresh Git installation to changing
-content on this site. To be extended with detailed explanations.
-
-Inform your Git about your identity as follows
-```
-git config --global user.name "Your name"
-git config --global user.email "Your email"
-```
-
-Then clone this repository
-```
-git clone https://github.com/dsatlse/dsatlse.github.io.git
-```
-
-After making changes to your local state, assuming you have push rights, run the following
-```
-git add .
-git commit -m "Add content on metric embedding"
-git push
-```
+- [ ] Challenges
 
 
-## Principles
+> Dark minimalistic theme but with the banner color scheme? – just thought it would give a more tech feel compared to white (Example: https://www.liveworx.com/ ). Use the colour codes used on the banner? The colour codes can be found here under Data Science Weekend: https://docs.google.com/document/d/1QINApTS3PGCQzPqqwMXQVa4E5SYxd1yY3lRrFQlOjew/edit?usp=sharing
 
-This is a static website made with Zola and hosted on GitHub, see the source. All public materials developed by the society will be available on it, along with documentation of projects, events and public Zulip communication. Here are some core principles related to our technical stack.
+> make the banner smaller? It seems a bit too big to be on the top. Also, it might be a better idea to just provide a title, subtitle and use a short description with the date
 
-+ Requiring minimal IT competence to maintain
-+ Clear documentation of the tools and how they relate to each other
-+ Liberal enough to extend without reinventing the wheel
-+ Easy transfer of ownership to subsequent committees
-+ Ideally keep the core pieces stable on unpaid plans
-+ Plug-and-play nature of components: if something is not used, don't force it
+> Schedule can be replaced by infographic.
 
-[@kowale](https://github.com/kowale)
+
+
+
+
+
+
+
+ – use a frame that blends into the background (a bit like our Facebook and Instagram posts), and, also maybe put the speaker pictures and then a description of them next to the picture? – frames could be something like this: https://www.epicurrence.com/ or this https://2017.summit.co/ 
+
+ – something along the lines of infographics instead of long descriptions, doesn’t have to be complicated tho (https://www.inbound.com/blog ). for the challenges maybe we can put the main topic on the website and like a button that would direct people to the detailed information or the infographic? I’m not sure if this is possible but I think it would make the website looks neater 
+
+- Schedule example (a simple but nice one) - https://www.epicurrence.com/ 
+
+- Suggestions to possibly improve the website experience?
+
+> Expand the FAQ, rather than making it a toggle, make it look "prettier" , might make it more welcoming to beginners/ attract people who don't know about data science weekend as they can easily see their questions being answered, nudging them to sign up. idk if it is technically possible tho 
+
+- maybe add the key dates? i think it would be nice if people can just find all the deadline in one page so they don’t need to search here and there 
+ 
+Ideas: https://hacklbs.org/
+
+

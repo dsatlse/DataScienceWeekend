@@ -4,7 +4,6 @@
 {% endblock htmltitle %}
 {% block content %}
 
-<div class="jumbotron jumbotron-fluid text-center">
   <div class="container">
   	<div class="view overlay rounded-top">
   	<center> <a href="{{ config.extra.eventbrite_link }}"><img src ='DSW_Banner.png' class="img-fluid" height="75%"></a> </center>
@@ -19,7 +18,6 @@
   </br>
     <a class="btn btn-success btn-lg" href="{{ config.extra.eventbrite_link }}"target="blank" role="button">EVENTBRITE LINK</a>
   </div>
-</div>
 </div>
 
 <center><a id="sponsors"><h2> Sponsors </h2></a></center>
@@ -42,6 +40,10 @@ The Data Science Weekend would not be possible without the support of our genero
 </div>
 
 <hr class="my-4">
+
+<!-- <center><a id="schedule"><h2> Key Dates </h2></a></center> -->
+
+
 <center><a id="schedule"><h2> Schedule </h2></a></center>
 
 <div class="row row-cols-1 row-cols-md-2">
@@ -87,6 +89,8 @@ The Data Science Weekend would not be possible without the support of our genero
 </div>
 <hr class="my-4">
 <center><a id="challenge"><h2> Challenges </h2></a></center>
+
+<center> For the Data Science Weekend Challenge aspect, you are given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills, or learn new techniques. More information will be available nearer to the date <a href = ""> here </a> </center> <br/>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% set section = get_section(path="challenge/_index.md") %}
@@ -134,7 +138,7 @@ The Data Science Weekend would not be possible without the support of our genero
         </button>
       </h2>
     </div>
-    <div id="collapse{{loop.index}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+    <div id="collapse{{loop.index}}" class="collapse.show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
         <p>{{ page.extra.answer }}</p>
      </div>
