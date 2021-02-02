@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>DataScienceWeekend/</loc>
+        <loc>/DataScienceWeekend/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/challenge/</loc>
+        <loc>/DataScienceWeekend/challenge/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/challenge/challenge1/</loc>
+        <loc>/DataScienceWeekend/challenge/challenge1/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/challenge/challenge2/</loc>
+        <loc>/DataScienceWeekend/challenge/challenge2/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/challenge/challenge3/</loc>
+        <loc>/DataScienceWeekend/challenge/challenge3/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/faqs/</loc>
+        <loc>/DataScienceWeekend/faqs/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/faqs/faq/</loc>
+        <loc>/DataScienceWeekend/faqs/faq/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/faqs/faq2/</loc>
+        <loc>/DataScienceWeekend/faqs/faq2/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/faqs/faq3/</loc>
+        <loc>/DataScienceWeekend/faqs/faq3/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/judges/</loc>
+        <loc>/DataScienceWeekend/judges/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/judges/judge1/</loc>
+        <loc>/DataScienceWeekend/judges/judge1/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/judges/judge2/</loc>
+        <loc>/DataScienceWeekend/judges/judge2/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/judges/judge3/</loc>
+        <loc>/DataScienceWeekend/judges/judge3/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/judges/judge4/</loc>
+        <loc>/DataScienceWeekend/judges/judge4/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/speakers/</loc>
+        <loc>/DataScienceWeekend/speakers/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/speakers/speaker1/</loc>
+        <loc>/DataScienceWeekend/speakers/speaker1/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/speakers/speaker2/</loc>
+        <loc>/DataScienceWeekend/speakers/speaker2/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/speakers/speaker3/</loc>
+        <loc>/DataScienceWeekend/speakers/speaker3/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/speakers/speaker4/</loc>
+        <loc>/DataScienceWeekend/speakers/speaker4/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/sponsors/</loc>
+        <loc>/DataScienceWeekend/sponsors/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/sponsors/sponsor1/</loc>
+        <loc>/DataScienceWeekend/sponsors/sponsor1/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/sponsors/sponsor2/</loc>
+        <loc>/DataScienceWeekend/sponsors/sponsor2/</loc>
     </url>
     <url>
-        <loc>DataScienceWeekend/sponsors/sponsor3/</loc>
+        <loc>/DataScienceWeekend/sponsors/sponsor3/</loc>
     </url>
 </urlset>

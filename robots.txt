@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: DataScienceWeekend/sitemap.xml
+Sitemap: /DataScienceWeekend/sitemap.xml
