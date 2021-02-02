@@ -26,20 +26,22 @@ html {
 }
 
 body { 
-	padding-top: 75px; 
 	background-color:#cbdae3;
 	font-family: 'Bai Jamjuree', sans-serif;
 	
 }
+main {
+	padding-top: 7%; 
+}
 @media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+    body { padding-top: 7%; }
 }
 
 .card { 
 	background-color:rgba(0, 0, 0, 0);
 }
 
-.navbar.fixed-top.navbar-expand {
+#navBarBody {
 	background-color: #031a44;	
 }
 
@@ -52,5 +54,9 @@ body {
 }
 
 .btn-link {
+	color:#cbdae3;
+}
+
+button.navbar-toggler {
 	color:#cbdae3;
 }
