@@ -4,5 +4,5 @@ title = "TBC"
 
 [extra] 
 description = "Finance Panel Speaker"
-url = "example_education.png"
+url = "consulting/6.png"
 +++
