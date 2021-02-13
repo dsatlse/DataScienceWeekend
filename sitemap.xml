@@ -40,13 +40,19 @@
         <loc>/DataScienceWeekend/judges/judge3/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/judges/judge4/</loc>
-    </url>
-    <url>
         <loc>/DataScienceWeekend/speakers/</loc>
     </url>
     <url>
         <loc>/DataScienceWeekend/speakers/speaker1/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker10/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker11/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker12/</loc>
     </url>
     <url>
         <loc>/DataScienceWeekend/speakers/speaker2/</loc>
@@ -58,6 +64,21 @@
         <loc>/DataScienceWeekend/speakers/speaker4/</loc>
     </url>
     <url>
+        <loc>/DataScienceWeekend/speakers/speaker5/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker6/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker7/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker8/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/speakers/speaker9/</loc>
+    </url>
+    <url>
         <loc>/DataScienceWeekend/sponsors/</loc>
     </url>
     <url>
@@ -65,8 +86,5 @@
     </url>
     <url>
         <loc>/DataScienceWeekend/sponsors/sponsor2/</loc>
-    </url>
-    <url>
-        <loc>/DataScienceWeekend/sponsors/sponsor3/</loc>
     </url>
 </urlset>
