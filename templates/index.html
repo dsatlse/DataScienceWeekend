@@ -24,17 +24,17 @@
 
 <center><a id="sponsors"><h2> Sponsors </h2></a></center>
 
-The Data Science Weekend would not be possible without the generous support and input of the LSE Data Science Institute and the LSE Student Union
+The Data Science Weekend would not be possible without the generous support and input from the LSE Data Science Institute and the LSE Student Union
 
 <div class="row row-cols-1 row-cols-md-2">
   {% set section = get_section(path="sponsors/_index.md") %}
   {% for page in section.pages %}
   <div class="col mb-4">
     <div class="card h-100">
-      <img src = {{ page.extra.url }} class="card-img-top">
+      <a href = {{ page.extra.site_url }}> <img src = {{ page.extra.url }} class="card-img-top"></a>
       <div class="card-body">
-        <h5 class="card-title"> {{ page.title | safe}} </h5>
-        <p class="card-text"> {{ page.extra.description }} </p>
+        <!-- <h5 class="card-title"> {{ page.title | safe}} </h5> -->
+        <!-- <p class="card-text"> {{ page.extra.description }} </p> -->
         </div>
     </div>
   </div>
