@@ -1,8 +1,8 @@
 +++
-title = "Sponsor 2"
+title = "<a href = 'https://www.lsesu.com/'>LSE Student Union</a>"
 
 
 [extra] 
-description = "TBC"
-url = "example_marketing.png"
+description = ""
+url = "su.svg"
 +++

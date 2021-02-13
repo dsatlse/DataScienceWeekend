@@ -3,6 +3,6 @@ title = "Social Sciences"
 
 
 [extra] 
-description = "The"
+description = ""
 url = "example_projects.png"
 +++

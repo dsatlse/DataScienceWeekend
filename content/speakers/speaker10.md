@@ -3,6 +3,6 @@ title = "TBC"
 
 
 [extra] 
-description = "Consulting Panel Speaker <br/>"
+description = "Workshop speaker <br/>"
 url = "example_education.png"
 +++

@@ -20,18 +20,20 @@
   </div>
 </div>
 
+<hr>
+
 <center><a id="sponsors"><h2> Sponsors </h2></a></center>
 
-The Data Science Weekend would not be possible without the support of our generous sponsors
+The Data Science Weekend would not be possible without the generous support and input of the LSE Data Science Institute and the LSE Student Union
 
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-1 row-cols-md-2">
   {% set section = get_section(path="sponsors/_index.md") %}
   {% for page in section.pages %}
   <div class="col mb-4">
     <div class="card h-100">
       <img src = {{ page.extra.url }} class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title"> {{ page.title }} </h5>
+        <h5 class="card-title"> {{ page.title | safe}} </h5>
         <p class="card-text"> {{ page.extra.description }} </p>
         </div>
     </div>
@@ -44,27 +46,159 @@ The Data Science Weekend would not be possible without the support of our genero
 <!-- <center><a id="schedule"><h2> Key Dates </h2></a></center> -->
 
 
-<center><a id="schedule"><h2> Schedule </h2></a></center>
+<center><a id="schedule"><h2> Schedule </h2></a></center> <br/>
+
+<!-- <center><h3> Day 1 - Feb 27th </h3></center> -->
+
+<!-- <div class="container-fluid">
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="hori-timeline" dir="ltr">
+                    <ul class="list-inline events">
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">10:00 - 10:15</div>
+                                <h5 class="font-size-16">Keynote and Introduction to <br/> DSW</h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">10:15 - 11:15</div>
+                                <h5 class="font-size-16">Workshop 1: Structuring DS Projects</h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">11:30 - 12:30</div>
+                                <h5 class="font-size-16">Workshop 2: <br/>Natural Language Processing</h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">13:30 - 15:00</div>
+                                <h5 class="font-size-16">Data Science in Consulting Panel Discussion</h5>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="hori-timeline" dir="ltr">
+                    <ul class="list-inline events">
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">15:00 - 15:30</div>
+                                <h5 class="font-size-16">Datathon Kickoff and Q&A</h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">17:00 -18:00</div>
+                                <h5 class="font-size-16">Mentor Office Hours 1</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<center><h3> Day 2 - Feb 28th </h3></center>
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="hori-timeline" dir="ltr">
+                    <ul class="list-inline events">
+                        <li class="list-inline-item event-list">
+                            <div class="px-">
+                                <div class="event-date bg-soft-primary text-primary">10:00 - 11:00</div>
+                                <h5 class="font-size-16">Mentor <br/>Office Hours 2<br/><br/> </h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-2">
+                                <div class="event-date bg-soft-primary text-primary">14:00 </div>
+                                <h5 class="font-size-16">Submission <br/> Deadline<br/><br/></h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-2">
+                                <div class="event-date bg-soft-primary text-primary">14:00 - 15:30</div>
+                                <h5 class="font-size-16"> Data Science in Finance Panel <br/> <br/></h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-2">
+                                <div class="event-date bg-soft-primary text-primary">15:45 - 16:15</div>
+                                <h5 class="font-size-16"> Finalists <br/> Announced<br/><br/></h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="hori-timeline" dir="ltr">
+                    <ul class="list-inline events">
+                        <li class="list-inline-item event-list">
+                            <div class="px-2">
+                                <div class="event-date bg-soft-primary text-primary">16:1 - 16:30</div>
+                                <h5 class="font-size-16"> Closing<br/> Speech <br/></h5>
+                            </div>
+                        </li>
+                        <li class="list-inline-item event-list">
+                            <div class="px-4">
+                                <div class="event-date bg-soft-primary text-primary">17:00 -18:00</div>
+                                <h5 class="font-size-16">Optional Networking<br/></h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  -->
+
 
 <div class="row row-cols-1 row-cols-md-2">
 <div class = "col mb-4">
   <center> <h3> Day 1</h3> </center>
   <ul class="list-group">
-    <li class="list-group-item"><b>10:00 - 10:15</b> Intro + opening keynote</li>
-    <li class="list-group-item"><b>10:15 - 11:15</b> Workshop 1</li>
-    <li class="list-group-item"><b>11:30 - 12:30</b> Workshop 2</li>
+    <li class="list-group-item"><b>10:00 - 10:15</b> Intro + Opening Keynote</li>
+    <li class="list-group-item"><b>10:15 - 11:15</b> Workshop: Structuring Data Science Projects </li>
+    <li class="list-group-item"><b>11:30 - 12:30</b> Workshop: Introduction to NLP</li>
     <li class="list-group-item"><b>13:30 - 15:00</b> Data Science in Consulting Panel</li>
-    <li class="list-group-item"><b>15:00 - 15:30</b> Datathon briefing and Q&A</li>
-    <li class="list-group-item"><b>17:00 - 18:00</b> Mentor office hours 1</li>
+    <li class="list-group-item"><b>15:00 - 15:30</b> Datathon kick-off and Q&A</li>
+    <li class="list-group-item"><b>17:00 - 18:00</b> Mentor Office Hours 1</li>
   </ul>
 </div>
 <div class = "col mb-4">
   <center> <h3> Day 2</h3> </center>
   <ul class="list-group">
     <li class="list-group-item"><b>10:00 - 11:00</b> Mentor office hours 2 </li>
-    <li class="list-group-item"><b>14:00</b> Datathon submission deadline</li>
+    <li class="list-group-item"><b>14:00 - </b> Datathon submission deadline</li>
     <li class="list-group-item"><b>14:00 - 15:30</b> Data Science in Finance Panel + judging</li>
-    <li class="list-group-item"><b>15:45 - 16:45</b> Finalist presentations </li>
+    <li class="list-group-item"><b>15:45 - 16:15</b> Finalist Announced </li>
+    <li class="list-group-item"><b>16:15 - 16:30</b> Closing Speech </li>
     <li class="list-group-item"><b>17:00 - 18:00</b> Optional networking</li>
   </ul>
 </div>
@@ -81,7 +215,7 @@ The Data Science Weekend would not be possible without the support of our genero
       <img src = {{ page.extra.url }} class="card-img-top">
       <div class="card-body">
         <h5 class="card-title"> {{ page.title }} </h5>
-        <p class="card-text"> {{ page.extra.description }} </p>
+        <p class="card-text"> {{ page.extra.description | safe}} </p>
         </div>
     </div>
   </div>
@@ -90,7 +224,7 @@ The Data Science Weekend would not be possible without the support of our genero
 <hr class="my-4">
 <center><a id="challenge"><h2> Challenges </h2></a></center>
 
-<center> For the Data Science Weekend Challenge aspect, you are given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills, or learn new techniques. More information will be available nearer to the date <a href = ""> here </a> </center> <br/>
+You will given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills - but within the 24 hours! You can also make use of the time by exploring and learning new techniques. More information will be available nearer to the date <a href = ""> here </a> </center> <br/>
 
 <div class="row row-cols-1 row-cols-md-3">
   {% set section = get_section(path="challenge/_index.md") %}
@@ -109,7 +243,7 @@ The Data Science Weekend would not be possible without the support of our genero
 <hr class="my-4">
 <center><a id="judges"><h2> Judges </h2></a></center>
 
-<div class="row row-cols-1 row-cols-md-4">
+<div class="row row-cols-1 row-cols-md-3">
   {% set section = get_section(path="judges/_index.md") %}
   {% for page in section.pages %}
   <div class="col mb-4">

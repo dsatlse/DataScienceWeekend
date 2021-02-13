@@ -1,8 +1,8 @@
 +++
-title = "Sponsor 1"
+title = "<a href = 'https://www.lse.ac.uk/dsi'>LSE Data Science Institute</a>"
 
 
 [extra] 
-description = "TBC"
-url = "example_marketing.png"
+description = ""
+url = "dsi.jpg"
 +++

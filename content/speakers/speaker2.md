@@ -1,8 +1,8 @@
 +++
-title = "Speaker 2"
+title = "TBC"
 
 
 [extra] 
-description = "TBC"
+description = "Consulting Panel Speaker <br/>"
 url = "example_education.png"
 +++
