@@ -49,22 +49,25 @@
         <loc>/DataScienceWeekend/faqs/faq3/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/speaker1/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/speaker1/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/speaker2/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/speaker2/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/speaker3/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/speaker3/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/speaker4/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/speaker4/</loc>
     </url>
     <url>
-        <loc>/DataScienceWeekend/finance/speaker5/</loc>
+        <loc>/DataScienceWeekend/finance-speakers/speaker5/</loc>
+    </url>
+    <url>
+        <loc>/DataScienceWeekend/finance-speakers/speaker6/</loc>
     </url>
     <url>
         <loc>/DataScienceWeekend/judges/</loc>
