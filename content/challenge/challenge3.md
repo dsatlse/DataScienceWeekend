@@ -4,5 +4,5 @@ title = "Social Sciences"
 
 [extra] 
 description = ""
-url = "example_projects.png"
+url = "challenges/network.png"
 +++

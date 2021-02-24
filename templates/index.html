@@ -285,6 +285,22 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 <center><a id="speakers"><h3> Workshop Speakers </h3></a></center> <br/>
 
+<div class="row row-cols-1 row-cols-md-2">
+  {% set section = get_section(path="workshops/_index.md") %}
+  {% for page in section.pages %}
+  <div class="col mb-3">
+    <div class="card h-100">
+      <img src = {{ page.extra.url }} class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> {{ page.title }} </h5>
+        <p class="card-text"> {{ page.extra.description | safe}} </p>
+        </div>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+<hr class="my-4">
+
 <!-- <center><a id="judges"><h3> Challenge Judges </h3></a></center>
 
 <div class="row row-cols-1 row-cols-md-3">
@@ -309,6 +325,8 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 You will given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills - but within the 24 hours! You can also make use of the time by exploring and learning new techniques. More information will be available nearer to the date <a href = "challenge/index.html"> here </a> </center> <br/>
 
+<br/> <br/>
+
 <div class="row row-cols-1 row-cols-md-3">
   {% set section = get_section(path="challenge/_index.md") %}
   {% for page in section.pages %}
@@ -317,7 +335,7 @@ You will given the choice of a problem brief from 3 disciplines: Economics, Fina
       <img src = {{ page.extra.url }} class="card-img-top">
       <div class="card-body">
         <h5 class="card-title"> {{ page.title }} </h5>
-        <p class="card-text"> {{ page.extra.description }} </p>
+        <p class="card-text"> {{ page.extra.description | safe}} </p>
         </div>
     </div>
   </div>

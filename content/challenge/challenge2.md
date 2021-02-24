@@ -3,6 +3,6 @@ title = "Finance"
 
 
 [extra] 
-description = ""
-url = "example_projects.png"
+description = "<br/><br/>"
+url = "challenges/trades.png"
 +++

@@ -4,5 +4,5 @@ title = "Economics"
 
 [extra] 
 description = ""
-url = "example_projects.png"
+url = "challenges/example_projects2.png"
 +++
