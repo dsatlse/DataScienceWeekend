@@ -4,5 +4,5 @@ title = "Finance"
 
 [extra] 
 description = "<br/><br/>"
-url = "challenges/trades.png"
+url = "challenges/Finance.png"
 +++

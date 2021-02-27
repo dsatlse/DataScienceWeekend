@@ -323,7 +323,8 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 <hr class="my-4">
 <center><a id="challenge"><h2> Challenges </h2></a></center>
 
-You will given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills - but within the 24 hours! You can also make use of the time by exploring and learning new techniques. More information will be available nearer to the date <a href = "challenge/index.html"> here </a> </center> <br/>
+You will given the choice of a problem brief from 3 disciplines: Economics, Finance,and the Social Sciences. The task is open-ended, allowing for free-form exploration, and an opportunity to showcase your data science skills - but within the 24 hours! You can also make use of the time by exploring and learning new techniques. Check out the challenge page and submissions at: <br/>
+<center>  <strong> <a href = "https://lsesu-data-science-weekend.devpost.com/">  https://lsesu-data-science-weekend.devpost.com/ </a> </strong> </center> <br/>
 
 <br/> <br/>
 
@@ -332,11 +333,9 @@ You will given the choice of a problem brief from 3 disciplines: Economics, Fina
   {% for page in section.pages %}
   <div class="col mb-3">
     <div class="card h-100">
-      <img src = {{ page.extra.url }} class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title"> {{ page.title }} </h5>
-        <p class="card-text"> {{ page.extra.description | safe}} </p>
-        </div>
+      <a href = "{{ page.extra.url }}" id = "pop" data-toggle="lightbox"> 
+        <img src = {{ page.extra.url }} class="card-img-top">
+      </a>
     </div>
   </div>
     {% endfor %}
